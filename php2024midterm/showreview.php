@@ -16,7 +16,7 @@
             if(trim($_POST["comment"])!=""){
                 $comment=$_POST["comment"];
                 echo "論文評論評語:";
-                echo nl2br($_POST["comment"]);
+                echo nl2br($_POST["comment"])."<br/>";
             }
             else{
                 echo "沒有輸入資料"."<br/>";
